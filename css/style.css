@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+:root{
+    --font-family1: 'Poppins', sans-serif;
+    --font-family2: 'PT Serif', serif;
+    --font-family3: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-family: var(--font-family2);
+    font-size: 36px;
+    font-weight: 700;
+}
+h2 {
+    font-family:var(--font-family1) ;
+    font-size: 18px ;
+    font-weight: 600 ;
+    line-height: 27px;
+}
+.headerP{
+    font-family:var(--font-family1) ;
+    font-size: 18px ;
+    font-weight: 400 ;
+    line-height: 27px;
+}
+.text-container {
+    width: 439px ;
+}
+span{
+    writing-mode: vertical-rl; 
+    font-family: var(--font-family2);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15.9px;
+    margin-left: 10px;
+} 
+.name{
+    font-family: var(--font-family1);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    margin-top:  10px;
+}
+img {
+    width: 237px !important;
+}
+.col-md-4.col-2.middle2 ,.col-md-4.col-2.middle5 {
+    margin-top: 80px;
+  }
+
+@media (max-width:750px) {
+
+    .container-fluid.p-5.d-flex.justify-content-center.align-items-center.flex-column {
+        margin: 0 !important;
+        padding: 20px !important;
+    }
+    .d-flex.justify-content-between.p-5.container-fluid {
+        flex-direction: column !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        width: 100% !important;
+    }
+    .text-container {
+        width: 100%;
+    }
+    .headerP{
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+}
+h2 {
+margin-top: 20px;
+}
+img {
+    width: 138.72px !important;
+}
+.row.container {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: flex;
+    justify-content: space-around;
+}
+.col-md-4.col-2 {
+    width: 40% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.col-md-4.col-2.middle2 ,.col-md-4.col-2.middle4 ,.col-md-4.col-2.middle6 {
+    margin-top: 40px !important;
+  }
+  .name{
+    font-size: 14px;
+  }
+}
